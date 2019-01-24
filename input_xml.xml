@@ -1,0 +1,112 @@
+<FEM>
+<Revision>6</Revision>
+<Desc>kragbalken statisch spannung</Desc>
+<Analysis Type="static">
+</Analysis>
+<Output>
+   <stp>1</stp>
+   <tec>0</tec>
+   <vtk>1</vtk>
+   <avs>0</avs>
+   <ak3>0</ak3>
+   <energy>0</energy>
+</Output>
+<Nodes N="50">
+<Node><Id>1</Id><x>2.0</x><y>-2.0</y><z>0.5</z></Node>
+<Node><Id>2</Id><x>2.0</x><y>2.0</y><z>0.5</z></Node>
+<Node><Id>3</Id><x>2.0</x><y>-1.0</y><z>0.5</z></Node>
+<Node><Id>4</Id><x>2.0</x><y>0.0</y><z>0.5</z></Node>
+<Node><Id>5</Id><x>2.0</x><y>1.0</y><z>0.5</z></Node>
+<Node><Id>6</Id><x>-2.0</x><y>2.0</y><z>0.5</z></Node>
+<Node><Id>7</Id><x>1.0</x><y>2.0</y><z>0.5</z></Node>
+<Node><Id>8</Id><x>0.0</x><y>2.0</y><z>0.5</z></Node>
+<Node><Id>9</Id><x>-1.0</x><y>2.0</y><z>0.5</z></Node>
+<Node><Id>10</Id><x>-2.0</x><y>-2.0</y><z>0.5</z></Node>
+<Node><Id>11</Id><x>-2.0</x><y>1.0</y><z>0.5</z></Node>
+<Node><Id>12</Id><x>-2.0</x><y>0.0</y><z>0.5</z></Node>
+<Node><Id>13</Id><x>-2.0</x><y>-1.0</y><z>0.5</z></Node>
+<Node><Id>14</Id><x>-1.0</x><y>-2.0</y><z>0.5</z></Node>
+<Node><Id>15</Id><x>0.0</x><y>-2.0</y><z>0.5</z></Node>
+<Node><Id>16</Id><x>1.0</x><y>-2.0</y><z>0.5</z></Node>
+<Node><Id>17</Id><x>1.0</x><y>-1.0</y><z>0.5</z></Node>
+<Node><Id>18</Id><x>1.0</x><y>0.0</y><z>0.5</z></Node>
+<Node><Id>19</Id><x>1.0</x><y>1.0</y><z>0.5</z></Node>
+<Node><Id>20</Id><x>0.0</x><y>-1.0</y><z>0.5</z></Node>
+<Node><Id>21</Id><x>0.0</x><y>0.0</y><z>0.5</z></Node>
+<Node><Id>22</Id><x>0.0</x><y>1.0</y><z>0.5</z></Node>
+<Node><Id>23</Id><x>-1.0</x><y>-1.0</y><z>0.5</z></Node>
+<Node><Id>24</Id><x>-1.0</x><y>0.0</y><z>0.5</z></Node>
+<Node><Id>25</Id><x>-1.0</x><y>1.0</y><z>0.5</z></Node>
+<Node><Id>26</Id><x>2.0</x><y>2.0</y><z>-0.5</z></Node>
+<Node><Id>27</Id><x>2.0</x><y>-2.0</y><z>-0.5</z></Node>
+<Node><Id>28</Id><x>2.0</x><y>1.0</y><z>-0.5</z></Node>
+<Node><Id>29</Id><x>2.0</x><y>0.0</y><z>-0.5</z></Node>
+<Node><Id>30</Id><x>2.0</x><y>-1.0</y><z>-0.5</z></Node>
+<Node><Id>31</Id><x>-2.0</x><y>-2.0</y><z>-0.5</z></Node>
+<Node><Id>32</Id><x>1.0</x><y>-2.0</y><z>-0.5</z></Node>
+<Node><Id>33</Id><x>0.0</x><y>-2.0</y><z>-0.5</z></Node>
+<Node><Id>34</Id><x>-1.0</x><y>-2.0</y><z>-0.5</z></Node>
+<Node><Id>35</Id><x>-2.0</x><y>2.0</y><z>-0.5</z></Node>
+<Node><Id>36</Id><x>-2.0</x><y>-1.0</y><z>-0.5</z></Node>
+<Node><Id>37</Id><x>-2.0</x><y>0.0</y><z>-0.5</z></Node>
+<Node><Id>38</Id><x>-2.0</x><y>1.0</y><z>-0.5</z></Node>
+<Node><Id>39</Id><x>-1.0</x><y>2.0</y><z>-0.5</z></Node>
+<Node><Id>40</Id><x>0.0</x><y>2.0</y><z>-0.5</z></Node>
+<Node><Id>41</Id><x>1.0</x><y>2.0</y><z>-0.5</z></Node>
+<Node><Id>42</Id><x>1.0</x><y>1.0</y><z>-0.5</z></Node>
+<Node><Id>43</Id><x>1.0</x><y>0.0</y><z>-0.5</z></Node>
+<Node><Id>44</Id><x>1.0</x><y>-1.0</y><z>-0.5</z></Node>
+<Node><Id>45</Id><x>0.0</x><y>1.0</y><z>-0.5</z></Node>
+<Node><Id>46</Id><x>0.0</x><y>0.0</y><z>-0.5</z></Node>
+<Node><Id>47</Id><x>0.0</x><y>-1.0</y><z>-0.5</z></Node>
+<Node><Id>48</Id><x>-1.0</x><y>1.0</y><z>-0.5</z></Node>
+<Node><Id>49</Id><x>-1.0</x><y>0.0</y><z>-0.5</z></Node>
+<Node><Id>50</Id><x>-1.0</x><y>-1.0</y><z>-0.5</z></Node>
+</Nodes>
+<Materials N="2">
+<Material Type="isotropic" Name="Alu"><Id>1</Id><E>70000000000</E><nu>0.34</nu><rho>2700</rho><t>0</t></Material>
+<Material Type="isotropic" Name="Stahl"><Id>2</Id><E>210000000000</E><nu>0.3</nu><rho>7800</rho><t>0</t></Material>
+</Materials>
+<Elements N="15" GroupId="1" Group="PRIME_MATERIAL" Material="2">
+<Brick8><Id>2</Id><N>13</N><N>36</N><N>37</N><N>12</N><N>23</N><N>50</N><N>49</N><N>24</N></Brick8>
+<Brick8><Id>3</Id><N>12</N><N>37</N><N>38</N><N>11</N><N>24</N><N>49</N><N>48</N><N>25</N></Brick8>
+<Brick8><Id>4</Id><N>11</N><N>38</N><N>35</N><N>6</N><N>25</N><N>48</N><N>39</N><N>9</N></Brick8>
+<Brick8><Id>5</Id><N>14</N><N>34</N><N>50</N><N>23</N><N>15</N><N>33</N><N>47</N><N>20</N></Brick8>
+<Brick8><Id>6</Id><N>23</N><N>50</N><N>49</N><N>24</N><N>20</N><N>47</N><N>46</N><N>21</N></Brick8>
+<Brick8><Id>7</Id><N>24</N><N>49</N><N>48</N><N>25</N><N>21</N><N>46</N><N>45</N><N>22</N></Brick8>
+<Brick8><Id>8</Id><N>25</N><N>48</N><N>39</N><N>9</N><N>22</N><N>45</N><N>40</N><N>8</N></Brick8>
+<Brick8><Id>9</Id><N>15</N><N>33</N><N>47</N><N>20</N><N>16</N><N>32</N><N>44</N><N>17</N></Brick8>
+<Brick8><Id>10</Id><N>20</N><N>47</N><N>46</N><N>21</N><N>17</N><N>44</N><N>43</N><N>18</N></Brick8>
+<Brick8><Id>11</Id><N>21</N><N>46</N><N>45</N><N>22</N><N>18</N><N>43</N><N>42</N><N>19</N></Brick8>
+<Brick8><Id>12</Id><N>22</N><N>45</N><N>40</N><N>8</N><N>19</N><N>42</N><N>41</N><N>7</N></Brick8>
+<Brick8><Id>13</Id><N>16</N><N>32</N><N>44</N><N>17</N><N>1</N><N>27</N><N>30</N><N>3</N></Brick8>
+<Brick8><Id>14</Id><N>17</N><N>44</N><N>43</N><N>18</N><N>3</N><N>30</N><N>29</N><N>4</N></Brick8>
+<Brick8><Id>15</Id><N>18</N><N>43</N><N>42</N><N>19</N><N>4</N><N>29</N><N>28</N><N>5</N></Brick8>
+<Brick8><Id>16</Id><N>19</N><N>42</N><N>41</N><N>7</N><N>5</N><N>28</N><N>26</N><N>2</N></Brick8>
+</Elements>
+<Elements N="1" GroupId="2" Group="NONDESIGN" Material="2">
+<Brick8><Id>1</Id><N>10</N><N>31</N><N>36</N><N>13</N><N>14</N><N>34</N><N>50</N><N>23</N></Brick8>
+</Elements>
+<NodalForces N="1">
+<NodalForce Type="structure"><Id>1</Id><Fx>0.0</Fx><Fy>-10000.0</Fy><Fz>0.0</Fz></NodalForce>
+</NodalForces>
+<NodesWithLoads>
+<Loaded><Node>2</Node><Load>1</Load></Loaded>
+<Loaded><Node>26</Node><Load>1</Load></Loaded>
+</NodesWithLoads>
+<NodeBCs N="1">
+<NodeBC Type="structure" Name="BC1"><Id>1</Id><u1>1</u1><valu1>0</valu1><u2>1</u2><valu2>0</valu2><u3>1</u3><valu3>0</valu3><w1>1</w1><valw1>0</valw1><w2>1</w2><valw2>0</valw2><w3>1</w3><valw3>0</valw3></NodeBC>
+</NodeBCs>
+<FixedNodes N="10">
+<Fixed><Node>35</Node><BC>1</BC></Fixed>
+<Fixed><Node>38</Node><BC>1</BC></Fixed>
+<Fixed><Node>37</Node><BC>1</BC></Fixed>
+<Fixed><Node>36</Node><BC>1</BC></Fixed>
+<Fixed><Node>31</Node><BC>1</BC></Fixed>
+<Fixed><Node>10</Node><BC>1</BC></Fixed>
+<Fixed><Node>13</Node><BC>1</BC></Fixed>
+<Fixed><Node>12</Node><BC>1</BC></Fixed>
+<Fixed><Node>11</Node><BC>1</BC></Fixed>
+<Fixed><Node>6</Node><BC>1</BC></Fixed>
+</FixedNodes>
+</FEM>
